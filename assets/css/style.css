@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500;1,600;1,700&family=Poppins:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+
+
+/* font-family: 'Playfair Display SC', serif; */
+/* font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif; 
+
+colors: #5a5a53 #e8652e #dbddc3*/
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    /* 1rem sind 10px 
+    ROOT */
+}
+
+body{
+    background: #EEEFE3;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight:300;
+    color:#5a5a53;
+    position:relative;
+}
+
+section{
+    background: url("../img/FrauSchautDurchsFernrohr.webp")right no-repeat;
+    background-size: 50%;
+    padding: 20% 5%;
+} 
+
+section h1,h2{
+    font-size: 5.5rem;
+    font-family: 'Playfair Display SC', serif;
+}
+section h1::first-letter, section h2::first-letter{
+    font-size: 7rem;
+}
+section span{
+    font-size:7rem;
+}
+
+
+section p{
+    width:35%;
+    margin: 5vh 0 8vh 0;
+    font-size: 2.4rem;
+}
+section a{
+    position: absolute;
+    left: 100px;
+    text-decoration:none;
+    color:#5a5a53;
+    font-weight:500;
+    font-size: 2.5rem;
+    background: #FFA915;
+    padding: 1.5rem 9rem;
+    border: 1px solid #FFA915;
+    border-radius: 30px;
+}
+
+/* ************************************* 
+            Bild
+**************************************** */
+
+section:nth-of-type(2){
+    /* position: absolute;
+    top:70px;
+    right:150px;
+    height: 30vh;
+    /* width: -5%; */
+    /* position: absolute;
+    top: 200px;
+    right: 250px; */
+
+    background:url("../img/FrauSchautDurchsFernrohr.webp");
+}
